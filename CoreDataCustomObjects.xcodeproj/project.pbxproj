@@ -14,6 +14,7 @@
 		7777A42C1B79389A00AA23C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7777A42B1B79389A00AA23C6 /* Images.xcassets */; };
 		7777A42F1B79389A00AA23C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7777A42D1B79389A00AA23C6 /* LaunchScreen.xib */; };
 		7777A43B1B79389A00AA23C6 /* CoreDataCustomObjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777A43A1B79389A00AA23C6 /* CoreDataCustomObjectsTests.swift */; };
+		7793EF611B9821B800D4F25C /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7793EF601B9821B800D4F25C /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		7777A4341B79389A00AA23C6 /* CoreDataCustomObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataCustomObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7777A4391B79389A00AA23C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7777A43A1B79389A00AA23C6 /* CoreDataCustomObjectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCustomObjectsTests.swift; sourceTree = "<group>"; };
+		7793EF601B9821B800D4F25C /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				7777A42B1B79389A00AA23C6 /* Images.xcassets */,
 				7777A42D1B79389A00AA23C6 /* LaunchScreen.xib */,
 				7777A4231B79389A00AA23C6 /* CoreDataCustomObjects.xcdatamodeld */,
+				7793EF601B9821B800D4F25C /* Users.swift */,
 				7777A41F1B79389A00AA23C6 /* Supporting Files */,
 			);
 			path = CoreDataCustomObjects;
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7793EF611B9821B800D4F25C /* Users.swift in Sources */,
 				7777A4271B79389A00AA23C6 /* ViewController.swift in Sources */,
 				7777A4251B79389A00AA23C6 /* CoreDataCustomObjects.xcdatamodeld in Sources */,
 				7777A4221B79389A00AA23C6 /* AppDelegate.swift in Sources */,
@@ -413,6 +417,7 @@
 				7777A4401B79389A00AA23C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7777A4411B79389A00AA23C6 /* Build configuration list for PBXNativeTarget "CoreDataCustomObjectsTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				7777A4431B79389A00AA23C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
